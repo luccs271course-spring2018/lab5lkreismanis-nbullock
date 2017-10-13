@@ -1,3 +1,4 @@
+/*Larisa Kreismanis*/
 package edu.luc.cs271.linkedstack;
 
 import java.util.List;
