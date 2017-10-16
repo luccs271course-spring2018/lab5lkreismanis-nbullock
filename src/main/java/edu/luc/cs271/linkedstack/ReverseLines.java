@@ -1,7 +1,7 @@
 package edu.luc.cs271.linkedstack;
 
 import java.util.Scanner;
-import java.util.ArrayList;
+import java.util.Stack;
 
 public class ReverseLines {
 
@@ -14,11 +14,11 @@ public class ReverseLines {
 		String line;
 		while ((line = input.nextLine()) != null){
 			lineStack.push(line);
-			String top = line;
 		}
 		
-		while(lineStack.peek(top) != null){
-			System.out.println(lineStack.pop(top));
+		while(lineStack.peek(line) != null){
+			System.out.printLn(lineStack.peek(line));
+			lineStack.pop(line);
 		}
 	
 
