@@ -21,8 +21,5 @@ public class ReverseLines {
 			lineStack.pop(line);
 		}
 	
-
-
-
 	}
 }

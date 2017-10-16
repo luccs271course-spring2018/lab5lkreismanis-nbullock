@@ -8,7 +8,6 @@ public class LinkedStack<E> implements IStack<E> {
 
   /** The topmost node of this stack. The stack gets pushed down from here. */
   private Node<E> top;
-  //Nathan
   // DONE why don't we need an explicit constructor? We do not need an explicit
   // constructor because the LinkedList ADT is already implemented.
   private int size = 0;
