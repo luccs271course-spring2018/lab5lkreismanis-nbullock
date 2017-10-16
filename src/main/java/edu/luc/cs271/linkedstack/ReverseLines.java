@@ -8,17 +8,17 @@ public class ReverseLines {
 	public static void main(String[] args) {
 		// TODO read successive input lines until EOF, then print out in reverse order
 
-		private Stack<String> lineStack = new Stack<String>();
+		Stack<String> lineStack = new Stack<String>();
 
 		final Scanner input = new Scanner(System.in);
 		String line;
-		while ((line = input.nextLine()) != null) {
+		while ((line = input.nextLine()) != null){
 			lineStack.push(line);
 			String top = line;
 		}
 		
-		while(lineStack != null){
-			system.out.println(lineStack.pop(top);
+		while(lineStack.peek(top) != null){
+			System.out.println(lineStack.pop(top));
 		}
 	
 
